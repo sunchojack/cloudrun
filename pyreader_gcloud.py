@@ -4,8 +4,8 @@ import time
 from google.cloud import storage
 
 # Define Google Cloud Storage variables
-BUCKET_NAME = "bvd_info_1103"
-FOLDER_PATH = "MahdiMethod"
+BUCKET_NAME = "BUCKET_NAME"
+FOLDER_PATH = "FOLDER_PATH"
 
 def read_excel_files(folder_path=FOLDER_PATH, sheet="Results"):
     start_time_main = time.time()
